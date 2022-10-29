@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoreModule } from './pages/core/core.module';
 import { LoginComponent } from './pages/seguranca/login/login.component';
 import { PrimeNGModule } from './primeng.module';
 
@@ -16,7 +17,8 @@ import { PrimeNGModule } from './primeng.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    PrimeNGModule
+    PrimeNGModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
